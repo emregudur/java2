@@ -1,11 +1,20 @@
 package javaApp2;
 
-public class yonetici extends calisan {
+import java.util.ArrayList;
 
-	public yonetici(int id, String isim, int maas, String departman) {
+public class yonetici extends calisan {
+	private ArrayList<Integer> calisanlar =new ArrayList<Integer>();
+	private String isim_;
+	public yonetici(int id, String isim, int maas, String departman, int calisan) {
 		super(id, isim, maas, departman);
+		isim_=isim;
+		calisanlar.add(calisan);
 	}
 	public void calisanlariListele(){
+		System.out.println(isim_+" çalýþanlarý...");
+		for (Integer integer : calisanlar) {
+			System.out.println(integer);
+		}
 	}
 
 }

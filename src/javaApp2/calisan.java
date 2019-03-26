@@ -19,5 +19,13 @@ public class calisan {
 		System.out.println("Maaþ "+this.maas);
 		System.out.println("Departman "+this.departman);
 	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 	
 }
