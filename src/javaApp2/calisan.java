@@ -14,7 +14,7 @@ public class calisan {
 	};
 	
 	public void showInfos(){
-		System.out.println(this.isim +" bilgileri");
+		System.out.println(this.isim);
 		System.out.println("id "+this.id);
 		System.out.println("Maaþ "+this.maas);
 		System.out.println("Departman "+this.departman);

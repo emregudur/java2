@@ -16,5 +16,11 @@ public class yonetici extends calisan {
 			System.out.println(integer);
 		}
 	}
+	@Override
+	public void showInfos(){
+		System.out.println("Yönetici bilgileri");
+		super.showInfos();
+		
+	}
 
 }
